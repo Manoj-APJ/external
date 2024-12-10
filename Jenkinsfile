@@ -6,7 +6,7 @@ pipeline {
                 url: 'https://github.com/Manoj-APJ/sample3'
             }
         }
-        stage(Java code execution) {
+        stage('Java code execution') {
             steps {
                 script {
                     sh 'javac helloworld.java'
