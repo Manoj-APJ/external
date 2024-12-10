@@ -9,15 +9,15 @@ pipeline {
         stage('Java code execution') {
             steps {
                 script {
-                    sh 'javac Helloworld.java'
-                    sh 'java Helloworld'
+                    bat 'javac Helloworld.java'
+                    bat 'java Helloworld'
                 }
             }
         }
         stage('python code execution') {
             steps {
                 script {
-                    sh 'python helloworld.py'
+                    bat 'python helloworld.py'
                 }
             }
         }
