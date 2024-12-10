@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git hub access') {
             steps {
-                url: 'https://github.com/Manoj-APJ/sample3'
+                git url: 'https://github.com/Manoj-APJ/sample3'
             }
         }
         stage('Java code execution') {
