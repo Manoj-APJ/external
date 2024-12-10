@@ -9,8 +9,8 @@ pipeline {
         stage('Java code execution') {
             steps {
                 script {
-                    sh 'javac helloworld.java'
-                    sh 'java helloworld'
+                    sh 'javac Helloworld.java'
+                    sh 'java Helloworld'
                 }
             }
         }
